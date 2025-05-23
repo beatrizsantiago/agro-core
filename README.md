@@ -1,6 +1,6 @@
 # Agro Core Design System
 
-### Essa biblioteca foi desenvolvida com o intuito de centralizar a estilização e os componentes utilizados no hackathon.
+<p>Essa biblioteca foi desenvolvida com o intuito de centralizar a estilização e os componentes utilizados no hackathon.</p>
 
 <b>Versão:</b> 1.0.0
 
