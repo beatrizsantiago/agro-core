@@ -16,15 +16,15 @@ declare module '@mui/material/styles' {
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#2e7d32',
-      light: '#a5d6a7',
-      dark: '#1b5e20',
-      contrastText: '#ffffff',
-    },
-    secondary: {
       main: '#6d4c41',
       light: '#a1887f',
       dark: '#4e342e',
+      contrastText: '#ffffff',
+    },
+    secondary: {
+      main: '#2e7d32',
+      light: '#a5d6a7',
+      dark: '#1b5e20',
       contrastText: '#ffffff',
     },
     tertiary: {
@@ -44,9 +44,16 @@ const theme = createTheme({
   },
   typography: {
     fontFamily: '"Nunito Sans", sans-serif',
-     button: {
-      textTransform: 'none',
-      fontWeight: 500,
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: 'none',
+          borderRadius: '8px',
+          fontWeiht: 500,
+        },
+      },
     },
   },
 });
