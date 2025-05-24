@@ -43,7 +43,11 @@ const theme = createTheme({
     },
   },
   typography: {
-    fontFamily: '"Nunito", sans-serif',
+    fontFamily: '"Nunito Sans", sans-serif',
+     button: {
+      textTransform: 'none',
+      fontWeight: 500,
+    },
   },
 });
 
