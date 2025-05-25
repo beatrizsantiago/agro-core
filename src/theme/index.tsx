@@ -55,6 +55,14 @@ const theme = createTheme({
         },
       },
     },
+    MuiDialog: {
+      styleOverrides: {
+        paper: {
+          borderRadius: '14px',
+          padding: '24px',
+        },
+      },
+    },
   },
 });
 
