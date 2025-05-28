@@ -4,9 +4,11 @@ import { PaletteColorOptions, PaletteColor } from '@mui/material';
 declare module '@mui/material/styles' {
   interface Palette {
     tertiary: PaletteColor;
+    blue: PaletteColor;
   }
   interface PaletteOptions {
     tertiary?: PaletteColorOptions;
+    blue?: PaletteColorOptions;
   }
   interface TypeBackground {
     soft?: string;
@@ -31,6 +33,12 @@ const theme = createTheme({
       main: '#fdd835',
       light: '#fff59d',
       dark: '#c6a700',
+      contrastText: '#212121',
+    },
+    blue: {
+      main: '#81d4fa',
+      light: '#b3e5fc',
+      dark: '#4fc3f7',
       contrastText: '#212121',
     },
     background: {
